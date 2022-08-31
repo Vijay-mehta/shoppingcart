@@ -1,0 +1,70 @@
+.top_header {
+  display: flex;
+  justify-content: space-evenly;
+  background: darkblue;
+padding: 20px;
+}
+  
+
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.top_header a {
+  color: white;
+  text-decoration: none;
+}
+
+.top_footer {
+  background: darkblue;
+  display: flex;
+  flex-direction: column;
+  padding: 23px;
+}
+
+.top_footer a{
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.paragraph{
+  margin: 30px 0;
+}
+
+.top_heading{
+  margin: 20px 0 20px 0;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+input {
+  margin: 15px 0;
+}
+
+button.signupbtn {
+
+  margin-left: 21px;
+}
+
+button {
+  border-radius: 14%;
+}
+
+select#pet-select {
+  margin: 20px 0;
+}
+
+.select_city {
+  padding: 15px 0 30px 0;
+}
+
+p{
+  color: red;
+}
