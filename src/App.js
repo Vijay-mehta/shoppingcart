@@ -27,12 +27,12 @@ function App() {
    <Header/>
     <Routes>
   
-    <Route path="/" element={<About/>}></Route>
+//     <Route path="/" element={<About/>}></Route>
     <Route path="/about" element={<About/>}></Route>
     <Route path="/home" element={<Home/>}></Route>
     {/* <Route path="/category" element={<Category/>}></Route> */}
     <Route path="/contact" element={<Contact/>}></Route>
-    <Route path="/signup" element={<Signup/>}></Route>
+    <Route path="/" element={<Signup/>}></Route>
 
    
     </Routes>
